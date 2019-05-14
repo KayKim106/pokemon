@@ -5,7 +5,7 @@
 
 1. Search pokemon by name or pokemon ID
 
-2. See all pokemons list
+2. See all pokemons list with description
 
 Run node module as localhost:4000
 
