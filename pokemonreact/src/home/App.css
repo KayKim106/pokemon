@@ -1,0 +1,18 @@
+.jumbotron{
+  text-align:center;
+  color: navy;
+  font-weight:900;
+  text-transform: uppercase;
+  height:100%;
+  background: transparent;
+
+  background-repeat: none;
+  background-size:100% 100%;
+}
+.homeWrapper{
+  height:100vh;
+  background:url('/src/assets/images/background/background.jpg'); 
+}
+
+
+

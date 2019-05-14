@@ -1,0 +1,86 @@
+.navWrapper{
+    background:red;
+    height:100px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+header{
+    position: absolute;
+    height:100px;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:link,a:hover{
+    text-decoration: none;
+}
+.logo{
+    width:100px;
+    height:100px;
+    line-height:100px;
+    position:relative;
+}
+.logo .logo-image{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 23px;
+    left: 21px;
+    transition: 0.2s ease;
+}
+.logo:hover{
+    transform: rotate(360deg);
+    transition:0.2s;
+}
+.logo .open-logo{
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    line-height: 116px;
+    left: 14px;
+    top: 16px;
+    display:none;
+}
+.logo:hover .open-logo{
+    display:block;
+    transition:1s ease;
+}
+
+.menu{
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
+    display:inline-block;
+}
+.menu ul li{
+    display:inline;
+    margin-right:30px;
+    line-height:100px;
+    padding:20px;
+    background:transparent;;
+    border-radius:10px;
+    transition:all 0.5s ease;
+}
+.menu li:hover{
+    background:yellow;
+  
+}
+.menu li:hover a{
+    color:red;
+    text-decoration:none;
+}
+.searchText{
+    margin-right:5px;
+}
+
+ul li{
+    list-style:none;
+    text-align:left;
+    margin-top:5px;
+    text-decoration:non;
+  }
+  
